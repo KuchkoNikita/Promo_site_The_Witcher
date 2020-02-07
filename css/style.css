@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'MasonChronicles';
-    src: url('/fonts/MasonChronicles.woff') format('woff'),
-         url('/fonts/MasonChronicles.woff2') format('woff2');
+    src: url('../fonts/MasonChronicles.woff') format('woff'),
+         url('../fonts/MasonChronicles.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url('/img/background.jpg');
+    background-image: url('../img/background.jpg');
     background-repeat: no-repeat;
     background-position: top right 20%;
 }
@@ -182,14 +182,14 @@ body {
 }
 
 .series-1 {
-    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url('/img/series/series1.png');
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url('../img/series/series1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
 .series-2 {
-    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url('/img/series/series2.png');
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url('../img/series/series2.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -199,7 +199,7 @@ body {
     border: none;
     height: 23px;
     width: 32px;
-    background-image: url('/img/arrow.svg');
+    background-image: url('../img/arrow.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-color: transparent;
